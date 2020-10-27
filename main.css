@@ -1,0 +1,27 @@
+body {
+   margin: 0; 
+}
+.container {
+    margin: 0;
+    width: 100%;  
+}
+div.row {
+    height: 100vh;
+
+}
+.user-image {
+    height: 40px;
+}
+
+.text-navigation {
+     
+}
+
+.left-column {
+    background-color: #4D3434;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+}
