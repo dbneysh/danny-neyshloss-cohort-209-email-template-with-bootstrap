@@ -45,12 +45,14 @@ div.row {
     border-radius: 15px;
     color: white;
     display: flex;
-    height: 50px;
+    height: 5vh;
     justify-content: center;
     margin-top: 70px;
     margin-left: 25px;
+    min-width: 10vw;
     padding: 0;
-    width: 175px;
+    position: relative;
+    width: 10vw;
 }
 
 .text-navigation {
@@ -67,7 +69,106 @@ div.row {
 
 .search-bar {
     border: none;
+    border-radius: 15px;
     height: 3%;
     margin-top: 25px;
+    opacity: 0.5;
+    text-align: center;
     width: 90%;
+}
+
+.first-email {
+    float: left;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.timeoffirstemail {
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 60px;
+    opacity: 0.8;
+    text-align: right;
+}
+
+.descriptionoffirstemail {
+    font-size: 12px;
+    margin-left: 40px;
+    opacity: 0.7;
+}
+
+.michael-email {
+    background-color: white;
+    box-shadow: 0px 5px 15px 0px #000000;
+    height: 10vh;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.second-email{
+    float: left;
+    font-size: 12px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.timeofsecondemail{
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 60px;
+    opacity: 0.8;
+    text-align: right;
+}
+
+.descriptionofsecondemail{
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.third-email{
+    float: left;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 11px;
+    text-align: left;
+}
+
+.timeofthirdemail{
+    font-size: 12px;
+    margin-right: 20px;
+    margin-top: 60px;
+    opacity: 0.8;
+    text-align: right;
+}
+
+.descriptionofthirdemail {
+    font-size: 12px;
+    opacity: 0.7;
+    float: left;
+}
+
+.to{
+    font-size: 9px; 
+    margin-left: 50px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.from{
+    font-size: 9px; 
+    margin-left: 50px;
+    opacity: 0.7;
+}
+
+.email-header{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.quotes{
+    line-height: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
 }
